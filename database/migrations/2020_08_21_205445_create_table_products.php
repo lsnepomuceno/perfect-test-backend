@@ -13,6 +13,7 @@ class CreateTableProducts extends Migration
             $table->id();
             $table->uuid('uuid');
             $table->string('name', 128)->nullable(false);
+            $table->string('image')->nullable(false);
             $table->string('description', 255)->nullable(false);
             $table->unsignedDecimal('price', 10, 2)->nullable(false);
             $table->timestamps();
