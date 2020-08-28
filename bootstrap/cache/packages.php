@@ -24,11 +24,29 @@
       0 => 'Fruitcake\\Cors\\CorsServiceProvider',
     ),
   ),
+  'intervention/image' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Intervention\\Image\\ImageServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Image' => 'Intervention\\Image\\Facades\\Image',
+    ),
+  ),
   'laravel/tinker' => 
   array (
     'providers' => 
     array (
       0 => 'Laravel\\Tinker\\TinkerServiceProvider',
+    ),
+  ),
+  'lucascudo/laravel-pt-br-localization' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Lucascudo\\LaravelPtBRLocalization\\LaravelPtBRLocalizationServiceProvider',
     ),
   ),
   'nesbot/carbon' => 
